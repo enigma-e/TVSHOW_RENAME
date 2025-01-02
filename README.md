@@ -17,3 +17,6 @@ python main.py <pattern1> <pattern2> [extension1] [extension2]
 ```bash
 python main.py 'S01E' 'S01E' '.mkv' '.srt'
 ```
+
+# Source Codes
+<a href="https://github.com/enigma-e/TVSHOW_RENAME.git" target="_blank">GitHub Repository</a>
