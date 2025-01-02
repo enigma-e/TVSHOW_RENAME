@@ -1,4 +1,3 @@
-
 ### This file facilitates TV show subtitle file rename according to episode names
 
 import argparse
@@ -9,8 +8,8 @@ import os
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Rename TV show subtitle files according to episode names.')
-    parser.add_argument('vid_pattern', type=str, help='The first string pattern to parse', default='S01E')
-    parser.add_argument('sub_pattern', type=str, help='The second string pattern to parse', default='1xE')
+    parser.add_argument('vid_pattern', type=str, help='The first string pattern to parse')
+    parser.add_argument('sub_pattern', type=str, help='The second string pattern to parse')
     parser.add_argument('vid_ext', type=str, help='The video file extension', default='.mp4', nargs='?')
     parser.add_argument('sub_ext', type=str, help='The subtitle file extension', default='.srt', nargs='?')
     return parser.parse_args()
